@@ -17,7 +17,7 @@ st.set_page_config(layout="wide")
 # --- Konfigurasi Ambang Batas dan Label ---
 # Ambang batas kepercayaan (dalam skala 0.0 hingga 1.0).
 # Jika kepercayaan tertinggi model di bawah nilai ini, gambar dianggap 'Tidak Valid/Tidak Relevan'.
-CONFIDENCE_THRESHOLD = 0.85
+CONFIDENCE_THRESHOLD = 0.90
 
 
 # --- Custom CSS for Styling ---
@@ -284,3 +284,4 @@ with col2:
     - Penggunaan steroid jangka panjang
     """
     )
+
